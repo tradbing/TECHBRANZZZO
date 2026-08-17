@@ -83,8 +83,7 @@ if (footSlot) {
           <ul>
             <li><a href="about.html">About us</a></li>
             <li><a href="about.html#process">How we work</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="pricing.html#payments">Payment methods</a></li>
+            <li><a href="pricing.html">Pricing &amp; rates</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -354,7 +353,7 @@ if (detail && typeof TEMPLATES !== 'undefined') {
             </tbody>
           </table>
         </div>
-        <p style="margin-top:14px;font-size:.88rem">Full terms in the <a href="legal.html#licence" style="text-decoration:underline">licence agreement</a>. Payment methods are listed on the <a href="pricing.html#payments" style="text-decoration:underline">pricing page</a>.</p>
+        <p style="margin-top:14px;font-size:.88rem">Full terms in the <a href="legal.html#licence" style="text-decoration:underline">licence agreement</a>. Licence tiers are on the <a href="pricing.html" style="text-decoration:underline">pricing page</a>.</p>
 
         <h2 style="font-size:1.4rem;margin:40px 0 18px">Deployment in 4 steps</h2>
         <div class="steps">
@@ -580,7 +579,7 @@ const BOT = {
     },
     {
       k: ['payment', 'pay', 'card', 'visa', 'mastercard', 'paypal', 'stripe', 'bank', 'wire', 'upi', 'invoice', 'installment', 'instal'],
-      a: "We accept Visa, Mastercard, Amex, PayPal, Stripe, bank/SWIFT wire transfers, UPI and NEFT/IMPS for India, and USDT/USDC for crypto payments.\n\nProjects are milestone-billed (typically 40/30/30), retainers are billed monthly in advance, and every invoice is issued before payment. Full details under <a href=\"pricing.html#payments\">payment methods</a>.",
+      a: "We accept Visa, Mastercard, Amex, PayPal, Stripe, bank/SWIFT wire transfers, UPI and NEFT/IMPS for India, and USDT/USDC for crypto payments.\n\nProjects are milestone-billed (typically 40/30/30), retainers are billed monthly in advance, and every invoice is issued before payment. Full breakdown on the <a href=\"pricing.html\">pricing page</a>.",
       q: ['How much does it cost?', 'Refund policy', 'Book a call']
     },
     {
