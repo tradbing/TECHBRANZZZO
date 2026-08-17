@@ -8,7 +8,7 @@ const TEMPLATES = [
     cat: 'Forex & Trading',
     desc: 'Complete forex brokerage front-end with live rate widgets, MT4/MT5 links, KYC onboarding and an investor dashboard.',
     buy: 289, rent: 39, was: 420,
-    rating: 4.9, sales: 1842, badge: 'hot',
+    rating: 4.4, sales: 1842, badge: 'hot',
     stack: ['Next.js', 'Tailwind', 'Node.js', 'PostgreSQL'],
     pages: 34, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -26,7 +26,7 @@ const TEMPLATES = [
     cat: 'Crypto & Web3',
     desc: 'Exchange UI with order book, TradingView charts, P2P escrow flow, wallet management and admin console.',
     buy: 349, rent: 49, was: 499,
-    rating: 4.8, sales: 1206, badge: 'top',
+    rating: 4.6, sales: 1206, badge: 'top',
     stack: ['React', 'WebSocket', 'Node.js', 'Redis'],
     pages: 41, updated: 'Jun 2026', license: 'Extended available',
     features: [
@@ -44,7 +44,7 @@ const TEMPLATES = [
     cat: 'SaaS',
     desc: 'Production-ready multi-tenant SaaS shell: auth, teams, roles, Stripe billing, usage metering and settings.',
     buy: 259, rent: 35, was: 380,
-    rating: 4.9, sales: 2310, badge: 'hot',
+    rating: 4.7, sales: 2310, badge: 'hot',
     stack: ['Next.js', 'Prisma', 'Stripe', 'PostgreSQL'],
     pages: 28, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -62,7 +62,7 @@ const TEMPLATES = [
     cat: 'Healthcare',
     desc: 'HMS covering OPD/IPD, appointments, e-prescriptions, lab reports, pharmacy stock and billing.',
     buy: 319, rent: 45, was: 460,
-    rating: 4.7, sales: 934, badge: '',
+    rating: 4.1, sales: 934, badge: '',
     stack: ['Laravel', 'MySQL', 'Bootstrap', 'Chart.js'],
     pages: 46, updated: 'May 2026', license: 'Extended available',
     features: [
@@ -80,7 +80,7 @@ const TEMPLATES = [
     cat: 'Education',
     desc: 'Course marketplace with video lessons, quizzes, certificates, instructor payouts and live class scheduling.',
     buy: 229, rent: 32, was: 340,
-    rating: 4.8, sales: 1675, badge: '',
+    rating: 4.5, sales: 1675, badge: '',
     stack: ['Next.js', 'Node.js', 'MongoDB', 'Mux'],
     pages: 32, updated: 'Jun 2026', license: 'Extended available',
     features: [
@@ -98,7 +98,7 @@ const TEMPLATES = [
     cat: 'Real Estate',
     desc: 'Property listing marketplace with map search, agent CRM, virtual tours and mortgage calculators.',
     buy: 249, rent: 34, was: 360,
-    rating: 4.7, sales: 1120, badge: '',
+    rating: 3.9, sales: 1120, badge: '',
     stack: ['Vue 3', 'Laravel', 'MySQL', 'Mapbox'],
     pages: 30, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -116,7 +116,7 @@ const TEMPLATES = [
     cat: 'E-commerce',
     desc: 'Multi-vendor storefront with seller onboarding, commission engine, shipping rules and coupon system.',
     buy: 299, rent: 42, was: 430,
-    rating: 4.9, sales: 2085, badge: 'top',
+    rating: 4.7, sales: 2085, badge: 'top',
     stack: ['Next.js', 'Medusa', 'PostgreSQL', 'Stripe'],
     pages: 38, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -134,7 +134,7 @@ const TEMPLATES = [
     cat: 'FinTech',
     desc: 'Neobank experience: onboarding, virtual cards, transfers, spend analytics and compliance dashboards.',
     buy: 379, rent: 55, was: 540,
-    rating: 4.8, sales: 764, badge: 'new',
+    rating: 4.0, sales: 764, badge: 'new',
     stack: ['React Native', 'Node.js', 'PostgreSQL', 'Plaid'],
     pages: 44, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -152,7 +152,7 @@ const TEMPLATES = [
     cat: 'Logistics',
     desc: 'Transport management with live tracking, route optimisation, driver app screens and proof of delivery.',
     buy: 289, rent: 40, was: 410,
-    rating: 4.6, sales: 612, badge: '',
+    rating: 3.6, sales: 612, badge: '',
     stack: ['Angular', 'Node.js', 'MongoDB', 'Google Maps'],
     pages: 35, updated: 'Apr 2026', license: 'Extended available',
     features: [
@@ -170,7 +170,7 @@ const TEMPLATES = [
     cat: 'AI & Automation',
     desc: 'Deploy AI support agents on web, WhatsApp and email with a knowledge base, handoff and analytics.',
     buy: 339, rent: 47, was: 490,
-    rating: 5.0, sales: 1398, badge: 'hot',
+    rating: 4.8, sales: 1398, badge: 'hot',
     stack: ['Next.js', 'Claude API', 'pgvector', 'Node.js'],
     pages: 26, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -188,7 +188,7 @@ const TEMPLATES = [
     cat: 'Dashboards',
     desc: 'Dark-first admin kit: 60+ components, 25 chart types, data tables, RBAC screens and settings.',
     buy: 149, rent: 22, was: 220,
-    rating: 4.9, sales: 3410, badge: 'top',
+    rating: 4.8, sales: 3410, badge: 'top',
     stack: ['React', 'Tailwind', 'Recharts', 'TypeScript'],
     pages: 52, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -206,7 +206,7 @@ const TEMPLATES = [
     cat: 'Crypto & Web3',
     desc: 'Mint, list and auction NFTs with wallet connect, royalty splits, collections and creator profiles.',
     buy: 279, rent: 38, was: 400,
-    rating: 4.6, sales: 588, badge: '',
+    rating: 3.4, sales: 588, badge: '',
     stack: ['Next.js', 'Solidity', 'Wagmi', 'IPFS'],
     pages: 29, updated: 'Mar 2026', license: 'Extended available',
     features: [
@@ -224,7 +224,7 @@ const TEMPLATES = [
     cat: 'Business Automation',
     desc: 'Booking system with staff calendars, service catalogue, deposits, reminders and no-show protection.',
     buy: 169, rent: 24, was: 250,
-    rating: 4.7, sales: 1493, badge: '',
+    rating: 4.3, sales: 1493, badge: '',
     stack: ['Next.js', 'Node.js', 'PostgreSQL', 'Twilio'],
     pages: 24, updated: 'Jun 2026', license: 'Extended available',
     features: [
@@ -242,7 +242,7 @@ const TEMPLATES = [
     cat: 'Hospitality',
     desc: 'Property management with rate plans, channel manager hooks, housekeeping boards and direct booking site.',
     buy: 299, rent: 41, was: 420,
-    rating: 4.6, sales: 507, badge: '',
+    rating: 3.7, sales: 507, badge: '',
     stack: ['Laravel', 'Vue 3', 'MySQL', 'Stripe'],
     pages: 37, updated: 'May 2026', license: 'Extended available',
     features: [
@@ -260,7 +260,7 @@ const TEMPLATES = [
     cat: 'Software',
     desc: 'Offline-first POS with barcode scanning, multi-store stock, purchase orders and GST/VAT invoicing.',
     buy: 219, rent: 30, was: 320,
-    rating: 4.8, sales: 1266, badge: '',
+    rating: 4.4, sales: 1266, badge: '',
     stack: ['Electron', 'React', 'SQLite', 'Node.js'],
     pages: 27, updated: 'Jun 2026', license: 'Extended available',
     features: [
@@ -278,7 +278,7 @@ const TEMPLATES = [
     cat: 'HR & Recruiting',
     desc: 'Job marketplace plus applicant tracking: pipelines, resume parsing, interview scheduling and scorecards.',
     buy: 239, rent: 33, was: 340,
-    rating: 4.7, sales: 841, badge: '',
+    rating: 4.2, sales: 841, badge: '',
     stack: ['Next.js', 'Node.js', 'PostgreSQL', 'Elastic'],
     pages: 31, updated: 'Jun 2026', license: 'Extended available',
     features: [
@@ -296,7 +296,7 @@ const TEMPLATES = [
     cat: 'Insurance',
     desc: 'Quote comparison, policy issuance, claims intake and agent commission tracking in one portal.',
     buy: 309, rent: 44, was: 440,
-    rating: 4.5, sales: 396, badge: 'new',
+    rating: 3.3, sales: 396, badge: 'new',
     stack: ['Angular', 'Spring Boot', 'PostgreSQL'],
     pages: 33, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -314,7 +314,7 @@ const TEMPLATES = [
     cat: 'Health & Fitness',
     desc: 'Memberships, class booking, trainer scheduling, attendance kiosk and recurring billing.',
     buy: 179, rent: 25, was: 260,
-    rating: 4.6, sales: 728, badge: '',
+    rating: 3.8, sales: 728, badge: '',
     stack: ['Laravel', 'Alpine.js', 'MySQL', 'Stripe'],
     pages: 25, updated: 'Apr 2026', license: 'Extended available',
     features: [
@@ -332,7 +332,7 @@ const TEMPLATES = [
     cat: 'E-commerce',
     desc: 'Customer app, restaurant panel and rider tracking with live order states and commission settlement.',
     buy: 329, rent: 46, was: 470,
-    rating: 4.8, sales: 1034, badge: 'hot',
+    rating: 4.5, sales: 1034, badge: 'hot',
     stack: ['Flutter', 'Node.js', 'MongoDB', 'Socket.IO'],
     pages: 40, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -350,7 +350,7 @@ const TEMPLATES = [
     cat: 'Legal',
     desc: 'Matter management with case timelines, document vault, time tracking and client billing.',
     buy: 259, rent: 36, was: 370,
-    rating: 4.5, sales: 342, badge: '',
+    rating: 3.5, sales: 342, badge: '',
     stack: ['Next.js', 'Node.js', 'PostgreSQL', 'S3'],
     pages: 28, updated: 'May 2026', license: 'Extended available',
     features: [
@@ -368,7 +368,7 @@ const TEMPLATES = [
     cat: 'Travel',
     desc: 'Flights, hotels and packages with supplier APIs, itinerary builder and agent booking desk.',
     buy: 289, rent: 40, was: 410,
-    rating: 4.6, sales: 655, badge: '',
+    rating: 3.9, sales: 655, badge: '',
     stack: ['Next.js', 'Node.js', 'Redis', 'Amadeus API'],
     pages: 36, updated: 'Jun 2026', license: 'Extended available',
     features: [
@@ -386,7 +386,7 @@ const TEMPLATES = [
     cat: 'Manufacturing',
     desc: 'Production planning, BOM, work orders, quality checks and machine downtime analytics.',
     buy: 399, rent: 58, was: 560,
-    rating: 4.7, sales: 289, badge: 'new',
+    rating: 4.0, sales: 289, badge: 'new',
     stack: ['React', 'Spring Boot', 'PostgreSQL', 'MQTT'],
     pages: 48, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -404,7 +404,7 @@ const TEMPLATES = [
     cat: 'Corporate',
     desc: 'High-conversion agency site: case studies, service pages, blog, careers and lead capture.',
     buy: 119, rent: 18, was: 180,
-    rating: 4.9, sales: 2764, badge: 'top',
+    rating: 4.8, sales: 2764, badge: 'top',
     stack: ['Astro', 'Tailwind', 'MDX', 'Vercel'],
     pages: 22, updated: 'Jul 2026', license: 'Extended available',
     features: [
@@ -422,7 +422,7 @@ const TEMPLATES = [
     cat: 'Cybersecurity',
     desc: 'Security operations console: asset inventory, vulnerability tracking, alerts and compliance reporting.',
     buy: 359, rent: 50, was: 510,
-    rating: 4.7, sales: 331, badge: 'new',
+    rating: 3.2, sales: 331, badge: 'new',
     stack: ['React', 'Node.js', 'ClickHouse', 'Grafana'],
     pages: 30, updated: 'Jul 2026', license: 'Extended available',
     features: [
