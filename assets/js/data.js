@@ -1,5 +1,10 @@
 /* Template marketplace catalogue.
-   ponytail: plain array, no CMS. Move to an API when the list outgrows hand-editing. */
+   ponytail: plain array, no CMS. Move to an API when the list outgrows hand-editing.
+
+   Optional per-template field:
+     preview: 'https://demo.example.com'  // a live demo URL. When set, the card's
+        button becomes "Live preview ↗" (opens in a new tab) and the detail page
+        gains an "Open live demo" button. Omit it and the card shows "View details". */
 
 const TEMPLATES = [
   {

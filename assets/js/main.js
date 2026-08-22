@@ -290,7 +290,9 @@ if (grid && typeof TEMPLATES !== 'undefined') {
         ${mockup(t)}
         ${t.badge ? `<span class="tpl-badge ${t.badge}">${label}</span>` : ''}
         <div class="tpl-hover">
-          <a class="btn btn-primary btn-sm" href="template.html?id=${t.id}">Live preview</a>
+          ${t.preview
+            ? `<a class="btn btn-primary btn-sm" href="${t.preview}" target="_blank" rel="noopener">Live preview ↗</a>`
+            : `<a class="btn btn-primary btn-sm" href="template.html?id=${t.id}">View details</a>`}
           <a class="btn btn-ghost btn-sm" href="template.html?id=${t.id}#buy">Pricing</a>
         </div>
       </div>
@@ -405,6 +407,7 @@ if (detail && typeof TEMPLATES !== 'undefined') {
           </label>
 
           <a class="btn btn-primary btn-block" style="margin:18px 0 10px" id="checkout" href="contact.html?tpl=${t.id}&plan=rent">Continue — ${money(t.rent)}/mo</a>
+          ${t.preview ? `<a class="btn btn-ghost btn-block" style="margin-bottom:10px" href="${t.preview}" target="_blank" rel="noopener">Open live demo ↗</a>` : ''}
           <a class="btn btn-ghost btn-block" href="contact.html?tpl=${t.id}&plan=demo">Book a live walkthrough</a>
 
           <div style="margin-top:22px">
