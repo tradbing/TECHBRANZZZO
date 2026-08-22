@@ -465,6 +465,10 @@ select.field option { background: #0e0f11; }
 .tpl-body p { font-size: .87rem; margin-bottom: 14px; }
 .tpl-meta { display: flex; align-items: center; gap: 10px; font-size: .78rem; color: var(--txt-mute); margin-bottom: 14px; }
 .stars { color: #fff; letter-spacing: 1px; }
+/* partial-fill star bar — gold overlay clipped to the rating's percentage */
+.starbar { position: relative; display: inline-block; white-space: nowrap; line-height: 1; letter-spacing: 2px; }
+.starbar-base { color: rgba(255, 255, 255, .20); }
+.starbar-fill { position: absolute; left: 0; top: 0; overflow: hidden; color: var(--gold); }
 .tpl-foot { margin-top: auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; padding-top: 14px; border-top: 1px solid var(--line); }
 .price strong { font-family: var(--font-d); font-size: 1.28rem; display: block; line-height: 1.2; color: #fff; }
 .price span { font-size: .74rem; color: var(--txt-mute); }

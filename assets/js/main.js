@@ -177,7 +177,13 @@ function toast(msg) {
 
 /* ---------- shared helpers ---------- */
 const money = n => '$' + n.toLocaleString('en-US');
-const stars = r => '★'.repeat(Math.round(r)) + '☆'.repeat(5 - Math.round(r));
+/* precise partial-fill stars: a 4.4 rating shows 88% gold, not 5 rounded stars */
+const stars = r => {
+  const pct = Math.max(0, Math.min(100, (Number(r) / 5) * 100)).toFixed(1);
+  return `<span class="starbar" role="img" aria-label="${r} out of 5 stars">`
+       + `<span class="starbar-base">★★★★★</span>`
+       + `<span class="starbar-fill" style="width:${pct}%">★★★★★</span></span>`;
+};
 
 /* monochrome preview mockup — shade varies per template so cards stay distinguishable */
 function shade(id) {
